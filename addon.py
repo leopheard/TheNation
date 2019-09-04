@@ -19,7 +19,7 @@ def main_menu():
         {
             'label': plugin.get_string(30002), 
             'path': plugin.url_for('episodes2'),
-            'thumbnail': "https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/79/1f/e2/791fe26e-0969-543f-2c45-6c2442a0fcba/mza_4618973306427568854.jpg/600x600wp.png"},
+            'thumbnail': "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fis1-ssl.mzstatic.com%2Fimage%2Fthumb%2FMusic128%2Fv4%2F6d%2F22%2Fdf%2F6d22dfe0-eb51-0737-9ebb-6a8e5ff3b02d%2Fsource%2F1200x630bb.jpg&f=1"},
         {
             'label': plugin.get_string(30003), 
             'path': plugin.url_for('episodes3'),
