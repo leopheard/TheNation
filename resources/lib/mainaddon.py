@@ -25,7 +25,7 @@ def get_soup3(url3):
     soup3 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup3))
     return soup3
-get_soup("https://audioboom.com/channels/4949998.rss")
+get_soup3("https://audioboom.com/channels/4949998.rss")
 
 def get_playable_podcast1(soup1):
     subjects = []
